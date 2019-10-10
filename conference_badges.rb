@@ -39,9 +39,15 @@ end
 
 def printer(attendees)
   
+list_of_badges = batch_badge_creator(attendees)
+list_of_room_assignments =  assign_rooms(attendees)
 index = 0 
 
-attendees.each do |string|
+  attendees.each do |string|
+  puts list_of_badges[index]
+  puts list_of_room_assignments[index]
+  index += 1 
+  end
   
   
 end 
