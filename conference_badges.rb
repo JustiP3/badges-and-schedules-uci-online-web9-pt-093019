@@ -17,6 +17,7 @@ return list_of_messages
 end
 
 
+
 def assign_rooms(speakers)
 
 index = 0 
@@ -25,7 +26,6 @@ array_of_assignments = []
 
 speakers.each do |person|
 message = "Hello, #{person}! You'll be assigned to room #{room}!"
-puts message 
 array_of_assignments[index] = message 
 index += 1 
 room += 1 
@@ -34,3 +34,9 @@ end
 return array_of_assignments
 
 end
+
+
+
+def printer(array_of_assignments)
+  array_of_assignments.each {|x| puts x }
+end 
