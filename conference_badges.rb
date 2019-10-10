@@ -41,8 +41,7 @@ def printer(attendees)
   
 index = 0 
 
-  attendees.each do |person|
-  badge_maker(person)
+attendees.each do |string|
   
-  end 
+  
 end 
