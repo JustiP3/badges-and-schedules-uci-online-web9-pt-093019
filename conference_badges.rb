@@ -17,4 +17,9 @@ return list_of_messages
 end
 
 
-def assign_rooms
+def assign_rooms(speakers)
+
+
+
+  
+end
