@@ -19,11 +19,18 @@ end
 
 def assign_rooms(speakers)
 
+index = 0 
 room = 1  
+array_of_assignments = [] 
 
 speakers.each do |person|
-puts "Hello, #{person}! You'll be assigned to room #{room}!"
+message = "Hello, #{person}! You'll be assigned to room #{room}!"
+puts message 
+array_of_assignments[index] = message 
+index += 1 
 room += 1 
 end 
+
+return array_of_assignments
 
 end
