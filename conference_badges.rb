@@ -37,6 +37,7 @@ end
 
 
 
-def printer(array_of_assignments)
+def printer(array_of_assignments, )
+  
   array_of_assignments.each {|x| puts x }
 end 
