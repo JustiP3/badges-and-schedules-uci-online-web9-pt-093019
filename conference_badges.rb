@@ -15,3 +15,6 @@ end
 return list_of_messages
 
 end
+
+
+def assign_rooms
