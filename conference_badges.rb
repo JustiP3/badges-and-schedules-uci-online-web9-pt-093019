@@ -37,7 +37,12 @@ end
 
 
 
-def printer(array_of_assignments, )
+def printer(attendees)
   
-  array_of_assignments.each {|x| puts x }
+index = 0 
+
+  attendees.each do |person|
+  badge_maker(person)
+  
+  end 
 end 
